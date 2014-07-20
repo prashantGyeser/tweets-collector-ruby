@@ -1,5 +1,8 @@
 require 'tweetstream'
 require 'csv'
+require 'logger'
+
+logger = Logger.new File.new('logs/log.log')
 
 output_csv_path = 'tweet_collector_output.csv'
 
@@ -14,16 +17,15 @@ end
 client = TweetStream::Client.new
 
 client.on_error do |message|
-  puts message
+  logger.error "Error: #{message.join("\n")}"
 end
 
 client.on_reconnect do |message|
-  puts "The client reconnected with message: #{message}"
+  logger.info "Reconnecting: #{message.join("\n")}"
 end
 
 # Tracking the following tweets
 client.track('dance', 'salsa') do |tweet|
-  puts "Storing tweet..."
   data = {
       tweet_id_str: tweet.id.to_s,
       tweet_text: tweet.text,
