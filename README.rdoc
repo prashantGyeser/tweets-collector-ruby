@@ -14,3 +14,30 @@ Run the file using ruby treat_setup.py and wait for the installation to complete
 split -l 100 data.csv
 Read http://stackoverflow.com/a/20034041
 
+# Setup s3cmd to push files to S3
+sudo apt-get install s3cmd
+
+##Permissions needed on AWS IAM
+    {
+      "Statement": [
+        {
+          "Action": [
+            "s3:ListAllMyBuckets"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:s3:::*"
+        },
+        {
+          "Action": [
+              "s3:ListBucket",
+              "s3:PutObject"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+              "arn:aws:s3:::bucket/path",
+              "arn:aws:s3:::bucket/path/*"
+          ]
+        }
+      ]
+    }
+

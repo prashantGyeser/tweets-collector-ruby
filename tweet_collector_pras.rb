@@ -30,6 +30,7 @@ end
 
 # Tracking the following tweets
 client.track('dance', 'salsa') do |tweet|
+  puts "Storing tweet..."
   data = {
       tweet_id_str: tweet.id.to_s,
       tweet_text: tweet.text,
