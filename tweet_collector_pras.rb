@@ -2,7 +2,7 @@ require 'tweetstream'
 require 'csv'
 require 'logger'
 
-logger = Logger.new File.new('logs/log.log')
+logger = Logger.new File.new('logs/tweetstream.log')
 
 output_csv_path = 'tweet_collector_output.csv'
 
@@ -22,6 +22,10 @@ end
 
 client.on_reconnect do |message|
   logger.info "Reconnecting: #{message.join("\n")}"
+end
+
+client.on_limit do |skip_count|
+  logger.info "Skipped: #{skip_count.join("\n")}"
 end
 
 # Tracking the following tweets
