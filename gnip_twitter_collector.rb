@@ -17,10 +17,8 @@ twitter_stream.consume do |message|
   #process the message however you want
   begin
     message_hash = GnipDataParser.parse_json_data(message)
-    puts message_hash.inspect
-    puts "The tweet is: #{JSON.parse(message)}"
     opened_csv_to_write << message_hash.values
-  rescue NoMethodError => e
+  rescue Exception => e
     logger.error e
   end
 
