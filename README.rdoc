@@ -49,3 +49,6 @@ Add
 $:<< File.join(File.dirname(__FILE__), '..')
 
 To the top of the spec_helper.rb file to include all the classes in the root lib folder.
+
+# Command to find the process started when using nohup
+ps auxwww|grep -i 'ruby'
