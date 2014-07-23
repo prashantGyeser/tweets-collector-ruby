@@ -4,11 +4,11 @@
     <list default="true" id="0e653e09-066a-477b-8c55-e4c16215d0fb" name="Default" comment="" />
     <ignored path="tweets-collector-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405841923507" ignored="false" />
+    <file path="/Gemfile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406095357361" ignored="false" />
     <file path="/tweet_collector_pras.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405842831019" ignored="false" />
     <file path="/clear_all_values_in_mongo_table.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405785151058" ignored="false" />
     <file path="/new_server_setup.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405843881399" ignored="false" />
-    <file path="/Dummy.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836627185" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406034792934" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/controllers/admin/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836790025" ignored="false" />
     <file path="/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836753782" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/views/admin/leads/push.html.erb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836639291" ignored="false" />
@@ -18,8 +18,20 @@
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/models/user.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836785006" ignored="false" />
     <file path="/Rakefile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405840510496" ignored="false" />
     <file path="/s3_csv_export.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405840546952" ignored="false" />
-    <file path="/README.rdoc" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405842546660" ignored="false" />
+    <file path="/README.rdoc" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406096905755" ignored="false" />
     <file path="/copy_file_to_s3.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405844395709" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-ruby/server_connection_details.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867555850" ignored="false" />
+    <file path="/server_connection_details.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405865998882" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-ruby/Gemfile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406052543884" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-ruby/lsi_classifier.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867555850" ignored="false" />
+    <file path="/lsi_classifier.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867416469" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-ruby/Gemfile.lock" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867555850" ignored="false" />
+    <file path="/.rvmrc" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406034838589" ignored="false" />
+    <file path="/gnip_twitter_collector.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406110173250" ignored="false" />
+    <file path="/mongo_creds.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406036648326" ignored="false" />
+    <file path="/gnip_data_parser.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109144846" ignored="false" />
+    <file path="/gnip_data_parser_spec.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109574538" ignored="false" />
+    <file path="/a.dummy" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109782817" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,55 +51,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tweet_collector_pras.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tweet_collector_pras.rb">
+      <file leaf-file-name="gnip_twitter_collector.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="7" column="24" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_server_setup.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_server_setup.sh">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="46" selection-start="438" selection-end="465" vertical-scroll-proportion="0.0">
+            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copy_file_to_s3.sh" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/copy_file_to_s3.sh">
+      <file leaf-file-name="gnip_data_parser.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gnip_data_parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.68697125">
+            <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
+      <file leaf-file-name="gnip_data_parser_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/lib/gnip_data_parser_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="48" selection-start="254" selection-end="275" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3_csv_export.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s3_csv_export.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="258" selection-end="279" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,16 +97,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tweet_collector.rb" />
-        <option value="$PROJECT_DIR$/twitter_streaming_api_datastructure.json" />
-        <option value="$PROJECT_DIR$/clear_all_values_in_mongo_table.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/s3_csv_export.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/tweet_collector_pras.rb" />
         <option value="$PROJECT_DIR$/new_server_setup.sh" />
         <option value="$PROJECT_DIR$/copy_file_to_s3.sh" />
+        <option value="$PROJECT_DIR$/.rvmrc" />
+        <option value="$PROJECT_DIR$/mongo_creds.txt" />
+        <option value="$PROJECT_DIR$/twitter_streaming_api_datastructure.json" />
+        <option value="$PROJECT_DIR$/gnip_twitter_data_format.json" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/fixtures/gnip_data/individual_tweet.json" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/lib/gnip_data_parser.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/gnip_data_parser_spec.rb" />
+        <option value="$PROJECT_DIR$/gnip_twitter_collector.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -148,6 +148,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,17 +177,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnip_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweets-collector-ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -282,18 +351,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2589928" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2997602" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -362,81 +432,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tweet_collector_pras.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_server_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="163" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_streaming_api_datastructure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_streaming_api_datastructure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/tweetstream.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/filetransfer.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rvmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+        <state line="11" column="10" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/gnip_twitter_data_format.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3_csv_export.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="258" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweet_collector_pras.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="93" column="8" selection-start="0" selection-end="4035" vertical-scroll-proportion="-1.8125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
@@ -446,16 +466,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_server_setup.sh">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="438" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="50" column="88" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.89454544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copy_file_to_s3.sh">
+    <entry file="file://$PROJECT_DIR$/spec/lib/gnip_data_parser_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.68697125">
+        <state line="12" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/fixtures/gnip_data/individual_tweet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="744" selection-end="744" vertical-scroll-proportion="0.9005146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweet_collector_pras.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gnip_data_parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnip_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

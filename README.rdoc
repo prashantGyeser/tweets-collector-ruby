@@ -41,3 +41,11 @@ sudo apt-get install s3cmd
       ]
     }
 
+# Rspec install
+Put gem 'rspec' into the gemfile and run bundle install
+Run rspec --init to initialize the rspec helper
+Add
+
+$:<< File.join(File.dirname(__FILE__), '..')
+
+To the top of the spec_helper.rb file to include all the classes in the root lib folder.

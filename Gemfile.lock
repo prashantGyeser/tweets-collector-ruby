@@ -8,6 +8,7 @@ GEM
     buftok (0.2.0)
     cookiejar (0.3.2)
     daemons (1.1.9)
+    diff-lcs (1.2.5)
     em-http-request (1.1.2)
       addressable (>= 2.3.4)
       cookiejar
@@ -25,6 +26,8 @@ GEM
     eventmachine (1.0.3)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    gnip-stream (1.0.0)
+      em-http-request (>= 1.0.3)
     http (0.6.1)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
@@ -36,6 +39,18 @@ GEM
     multi_json (1.10.1)
     multipart-post (2.0.0)
     naught (1.0.0)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.3)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.3)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.3)
     simple_oauth (0.2.0)
     thread_safe (0.3.4)
     tweetstream (2.6.1)
@@ -61,5 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   bson_ext
+  gnip-stream (~> 1.0.0)
   mongo
+  rspec
   tweetstream

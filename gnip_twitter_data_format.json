@@ -1,0 +1,135 @@
+{
+    "id":"tag:search.twitter.com,2005:491589754278793216",
+    "objectType":"activity",
+    "actor":{
+        "objectType":"person",
+        "id":"id:twitter.com:51646525",
+        "link":"http://www.twitter.com/Jexibebe",
+        "displayName":"Jexyvs ♛",
+        "postedTime":"2009-06-28T04:08:50.000Z",
+        "image":"https://pbs.twimg.com/profile_images/482119632245891072/JI0atJu8_normal.jpeg",
+        "summary":"Living a shitty yet fun life since '98",
+        "links":[
+            {
+                "href":null,
+                "rel":"me"
+            }
+        ],
+        "friendsCount":400,
+        "followersCount":816,
+        "listedCount":3,
+        "statusesCount":44308,
+        "twitterTimeZone":"Kuala Lumpur",
+        "verified":false,
+        "utcOffset":"28800",
+        "preferredUsername":"Jexibebe",
+        "languages":[
+            "en"
+        ],
+        "favoritesCount":9335
+    },
+    "verb":"post",
+    "postedTime":"2014-07-22T14:25:05.000Z",
+    "generator":{
+        "displayName":"Twitter for Android",
+        "link":"http://twitter.com/download/android"
+    },
+    "provider":{
+        "objectType":"service",
+        "displayName":"Twitter",
+        "link":"http://www.twitter.com"
+    },
+    "link":"http://twitter.com/Jexibebe/statuses/491589754278793216",
+    "body":"Quitting singing and dancing. What do with my life now??? I need a boyfriend hahahaha jk my bae is perfect already",
+    "object":{
+        "objectType":"note",
+        "id":"object:search.twitter.com,2005:491589754278793216",
+        "summary":"Quitting singing and dancing. What do with my life now??? I need a boyfriend hahahaha jk my bae is perfect already",
+        "link":"http://twitter.com/Jexibebe/statuses/491589754278793216",
+        "postedTime":"2014-07-22T14:25:05.000Z"
+    },
+    "favoritesCount":0,
+    "location":{
+        "objectType":"place",
+        "displayName":"Central Visayas, Republic of the Philippines",
+        "name":"Central Visayas",
+        "country_code":"Republic of the Philippines",
+        "twitter_country_code":"PH",
+        "link":"https://api.twitter.com/1.1/geo/id/0a6bbec14aa9da15.json",
+        "geo":{
+            "type":"Polygon",
+            "coordinates":[
+                [
+                    [
+                        122.6140433,
+                        9.0404895
+                    ],
+                    [
+                        122.6140433,
+                        11.3542107
+                    ],
+                    [
+                        124.6453181,
+                        11.3542107
+                    ],
+                    [
+                        124.6453181,
+                        9.0404895
+                    ]
+                ]
+            ]
+        }
+    },
+    "geo":{
+        "type":"Point",
+        "coordinates":[
+            10.3067002,
+            123.9036215
+        ]
+    },
+    "twitter_entities":{
+        "hashtags":[
+
+        ],
+        "symbols":[
+
+        ],
+        "urls":[
+
+        ],
+        "user_mentions":[
+
+        ]
+    },
+    "twitter_filter_level":"medium",
+    "twitter_lang":"en",
+    "retweetCount":0,
+    "gnip":{
+        "matching_rules":[
+            {
+                "value":"(dance OR dancing OR dances OR dancer OR danced) lang:en has:geo",
+                "tag":null
+            }
+        ],
+        "klout_score":46,
+        "klout_profile":{
+            "topics":[
+                {
+                    "klout_topic_id":"9219221220892052851",
+                    "displayName":"Cebu",
+                    "link":"http://klout.com/topic/id/9219221220892052851"
+                },
+                {
+                    "klout_topic_id":"10000000000000016617",
+                    "displayName":"Celebrities",
+                    "link":"http://klout.com/topic/id/10000000000000016617"
+                }
+            ],
+            "klout_user_id":"27584552484181357",
+            "link":"http://klout.com/user/id/27584552484181357"
+        },
+        "language":{
+            "value":"en"
+        }
+    }
+}
