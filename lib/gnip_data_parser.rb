@@ -1,8 +1,8 @@
 require 'json'
 
 class GnipDataParser
-  def self.parse_json_data(json_object)
-    data = JSON.parse(json_object)
+  def self.parse_json_data(json_string)
+    data = JSON.parse(json_string)
     tweet_data_hash = {
       tweet_id: data["id"].to_s.encode('utf-8') || '',
       tweet_poster_user_id: data["actor"]["id"].to_s.encode('utf-8') || '',
@@ -16,7 +16,7 @@ class GnipDataParser
       tweet_body: data["body"].to_s.encode('utf-8') || '',
       user_location: data["location"]["name"].to_s.encode('utf-8') || '',
       user_location_country_code: data["location"]["twitter_country_code"].to_s.encode('utf-8') || '',
-      gnip_matching_rules: data["gnip"]["matching_rules"].to_s.encode('utf-8') || ''
+      gnip_matching_rules: data["gnip"]["matching_rules"][0]["value"].to_s.encode('utf-8') || ''
     }
     return tweet_data_hash
   end
