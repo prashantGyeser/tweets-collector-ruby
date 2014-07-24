@@ -12,3 +12,5 @@ s3cmd put gnip_output.csv "s3://gnip_output/$newfilename"
 echo "Removing local file..."
 
 rm gnip_output.csv
+
+touch gnip_output.csv

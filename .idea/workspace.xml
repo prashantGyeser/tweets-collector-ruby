@@ -40,7 +40,7 @@
     <file path="/lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406186368163" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/models/user_lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406187001239" ignored="false" />
     <file path="/user_lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406186959129" ignored="false" />
-    <file path="/copy_gnip_output_to_s3.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406196097425" ignored="false" />
+    <file path="/copy_gnip_output_to_s3.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406196387674" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <file leaf-file-name="copy_gnip_output_to_s3.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.61300814">
+            <state line="15" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.70731705">
               <folding />
             </state>
           </provider>
@@ -555,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.61300814">
+        <state line="15" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.70731705">
           <folding />
         </state>
       </provider>
