@@ -1,5 +1,6 @@
 $:.unshift File.dirname(__FILE__)
 
+require 'lib/bugsnag_initialization'
 require 'gnip-stream'
 require 'json'
 require 'lib/gnip_data_parser'

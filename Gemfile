@@ -11,9 +11,8 @@ gem 'gnip-stream', '~> 1.0.0'
 
 gem 'rspec'
 
-# Auto process manager
-# Refer to http://godrb.com/ for details
-gem 'god'
+# Error tracking and reporting
+gem "bugsnag"
 
 
 

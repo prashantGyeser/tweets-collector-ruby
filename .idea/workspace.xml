@@ -4,7 +4,7 @@
     <list default="true" id="0e653e09-066a-477b-8c55-e4c16215d0fb" name="Default" comment="" />
     <ignored path="tweets-collector-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406121945443" ignored="false" />
+    <file path="/Gemfile" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406178844820" ignored="false" />
     <file path="/tweet_collector_pras.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405842831019" ignored="false" />
     <file path="/clear_all_values_in_mongo_table.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405785151058" ignored="false" />
     <file path="/new_server_setup.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405843881399" ignored="false" />
@@ -27,7 +27,7 @@
     <file path="/lsi_classifier.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867416469" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-ruby/Gemfile.lock" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867555850" ignored="false" />
     <file path="/.rvmrc" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406034838589" ignored="false" />
-    <file path="/gnip_twitter_collector.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406122403115" ignored="false" />
+    <file path="/gnip_twitter_collector.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406179114158" ignored="false" />
     <file path="/mongo_creds.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406036648326" ignored="false" />
     <file path="/gnip_data_parser.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406114235061" ignored="false" />
     <file path="/gnip_data_parser_spec.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109574538" ignored="false" />
@@ -35,6 +35,7 @@
     <file path="/.gitignore" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406121729270" ignored="false" />
     <file path="/connect_to_data_collector.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406120281117" ignored="false" />
     <file path="/simple.god" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406121832318" ignored="false" />
+    <file path="/bugsnag_initialization.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406179064359" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +55,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gnip_twitter_collector.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="58" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5299003">
+            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09430894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugsnag_initialization.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/bugsnag_initialization.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/new_server_setup.sh" />
         <option value="$PROJECT_DIR$/copy_file_to_s3.sh" />
         <option value="$PROJECT_DIR$/.rvmrc" />
         <option value="$PROJECT_DIR$/mongo_creds.txt" />
@@ -88,6 +118,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/simple.god" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/bugsnag_initialization.rb" />
         <option value="$PROJECT_DIR$/gnip_twitter_collector.rb" />
       </list>
     </option>
@@ -124,6 +155,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +286,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +388,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31095123" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31654677" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -436,6 +467,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gnip_twitter_data_format.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="8" selection-start="0" selection-end="4035" vertical-scroll-proportion="-1.8125" />
@@ -481,47 +522,43 @@
         <state line="6" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.28292683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="0.84843206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.god">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="55" selection-end="77" vertical-scroll-proportion="0.09430894">
-          <folding />
-        </state>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/connect_to_data_collector.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="63" selection-end="63" vertical-scroll-proportion="0.09430894">
+        <state line="2" column="50" selection-start="63" selection-end="63" vertical-scroll-proportion="0.09430894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bugsnag_initialization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="58" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5299003">
+        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09430894">
           <folding />
         </state>
       </provider>
