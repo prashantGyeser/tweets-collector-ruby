@@ -84,7 +84,7 @@
       <file leaf-file-name="copy_gnip_output_to_s3.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="186" selection-end="186" vertical-scroll-proportion="0.42439026">
+            <state line="13" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.61300814">
               <folding />
             </state>
           </provider>
@@ -555,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="186" selection-end="186" vertical-scroll-proportion="0.42439026">
+        <state line="13" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.61300814">
           <folding />
         </state>
       </provider>
