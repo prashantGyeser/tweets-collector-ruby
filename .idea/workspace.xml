@@ -8,9 +8,9 @@
     <file path="/tweet_collector_pras.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405842831019" ignored="false" />
     <file path="/clear_all_values_in_mongo_table.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405785151058" ignored="false" />
     <file path="/new_server_setup.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405843881399" ignored="false" />
-    <file path="/Dummy.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406034792934" ignored="false" />
-    <file path="$PROJECT_DIR$/../lead-generator-webapp/app/controllers/admin/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836790025" ignored="false" />
-    <file path="/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836753782" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406185046387" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-webapp/app/controllers/admin/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406187040389" ignored="false" />
+    <file path="/leads_controller.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406187033827" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/views/admin/leads/push.html.erb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836639291" ignored="false" />
     <file path="/push.html.erb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836639291" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/config/routes.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405836655175" ignored="false" />
@@ -31,11 +31,16 @@
     <file path="/mongo_creds.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406036648326" ignored="false" />
     <file path="/gnip_data_parser.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406114235061" ignored="false" />
     <file path="/gnip_data_parser_spec.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109574538" ignored="false" />
-    <file path="/a.dummy" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109782817" ignored="false" />
+    <file path="/a.dummy" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406185830711" ignored="false" />
     <file path="/.gitignore" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406121729270" ignored="false" />
     <file path="/connect_to_data_collector.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406120281117" ignored="false" />
     <file path="/simple.god" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406121832318" ignored="false" />
     <file path="/bugsnag_initialization.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406179064359" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-webapp/app/models/lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406186377821" ignored="false" />
+    <file path="/lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406186368163" ignored="false" />
+    <file path="$PROJECT_DIR$/../lead-generator-webapp/app/models/user_lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406187001239" ignored="false" />
+    <file path="/user_lead.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406186959129" ignored="false" />
+    <file path="/copy_gnip_output_to_s3.sh" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406196097425" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,34 +66,25 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="0.0">
+            <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gnip_twitter_collector.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
+      <file leaf-file-name="copy_file_to_s3.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/copy_file_to_s3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09430894">
+            <state line="0" column="0" selection-start="0" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="copy_gnip_output_to_s3.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bugsnag_initialization.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bugsnag_initialization.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="9" column="43" selection-start="186" selection-end="186" vertical-scroll-proportion="0.42439026">
               <folding />
             </state>
           </provider>
@@ -104,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/copy_file_to_s3.sh" />
         <option value="$PROJECT_DIR$/.rvmrc" />
         <option value="$PROJECT_DIR$/mongo_creds.txt" />
         <option value="$PROJECT_DIR$/twitter_streaming_api_datastructure.json" />
@@ -120,6 +115,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/bugsnag_initialization.rb" />
         <option value="$PROJECT_DIR$/gnip_twitter_collector.rb" />
+        <option value="$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh" />
       </list>
     </option>
   </component>
@@ -467,26 +463,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnip_twitter_data_format.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="8" selection-start="0" selection-end="4035" vertical-scroll-proportion="-1.8125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="254" selection-end="275" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
@@ -532,26 +508,9 @@
         <state line="2" column="50" selection-start="63" selection-end="63" vertical-scroll-proportion="0.09430894" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/gnip_output.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bugsnag_initialization.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -559,6 +518,44 @@
     <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09430894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.6227642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bugsnag_initialization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.4715447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/copy_file_to_s3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="24" selection-start="1490" selection-end="1514" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/copy_gnip_output_to_s3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="186" selection-end="186" vertical-scroll-proportion="0.42439026">
           <folding />
         </state>
       </provider>
