@@ -8,6 +8,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bson (v1.10.2, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bson_ext (v1.10.2, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="buftok (v0.2.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bugsnag (v2.2.1, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cookiejar (v0.3.2, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
@@ -21,10 +22,12 @@
     <orderEntry type="library" scope="PROVIDED" name="gnip-stream (v1.0.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http (v0.6.1, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.13.1, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="memoizable (v0.4.2, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mongo (v1.10.2, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.5, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="naught (v1.0.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec (v3.0.0, RVM: ruby-2.0.0-p247 [collector]) [gem]" level="application" />

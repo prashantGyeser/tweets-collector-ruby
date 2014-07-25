@@ -6,6 +6,7 @@ class GnipDataParser
     tweet_data_hash = {
       tweet_id: data["id"].to_s.encode('utf-8') || '',
       tweet_poster_user_id: data["actor"]["id"].to_s.encode('utf-8') || '',
+      tweet_poster_screen_name: data["actor"]["preferredUsername"].to_s.encode('utf-8') || '',
       tweet_poster_profile_link: data["actor"]["id"].to_s.encode('utf-8') || '',
       tweet_poster_display_name: data["actor"]["displayName"].to_s.encode('utf-8') || '',
       tweet_user_image: data["actor"]["image"].to_s.encode('utf-8') || '',
