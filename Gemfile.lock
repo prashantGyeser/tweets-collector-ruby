@@ -58,6 +58,7 @@ GEM
     rspec-mocks (3.0.3)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.3)
+    ruby-prof (0.15.1)
     simple_oauth (0.2.0)
     thread_safe (0.3.4)
     tweetstream (2.6.1)
@@ -87,4 +88,5 @@ DEPENDENCIES
   gnip-stream (~> 1.0.0)
   mongo
   rspec
+  ruby-prof
   tweetstream

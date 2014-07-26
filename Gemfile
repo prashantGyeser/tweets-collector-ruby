@@ -14,5 +14,8 @@ gem 'rspec'
 # Error tracking and reporting
 gem "bugsnag"
 
+# Performance monitoring for the ruby script
+gem 'ruby-prof'
+
 
 
