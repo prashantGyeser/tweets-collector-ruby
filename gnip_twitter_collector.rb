@@ -15,9 +15,12 @@ logger = Logger.new('logs/application.log')
 
 twitter_stream = GnipStream::PowertrackClient.new("https://stream.gnip.com:443/accounts/Urbanzeak/publishers/twitter/streams/track/prod.json", "prashant@urbanzeak.com", "KHELDAR@123")
 
+t = Time.now
 twitter_stream.consume do |message|
   #process the message however you want
   #RubyProf.start
+  puts Time.now - t
+  t = Time.now
   begin
     message_hash = GnipDataParser.parse_json_data(message)
     opened_csv_to_write << message_hash.values

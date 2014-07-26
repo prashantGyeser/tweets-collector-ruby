@@ -27,7 +27,7 @@
     <file path="/lsi_classifier.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867416469" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-ruby/Gemfile.lock" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1405867555850" ignored="false" />
     <file path="/.rvmrc" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406034838589" ignored="false" />
-    <file path="/gnip_twitter_collector.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406407201595" ignored="false" />
+    <file path="/gnip_twitter_collector.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406407355233" ignored="false" />
     <file path="/mongo_creds.txt" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406036648326" ignored="false" />
     <file path="/gnip_data_parser.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406323902540" ignored="false" />
     <file path="/gnip_data_parser_spec.rb" changelist="0e653e09-066a-477b-8c55-e4c16215d0fb" time="1406109574538" ignored="false" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="gnip_twitter_collector.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="174" selection-end="174" vertical-scroll-proportion="0.04715447">
+            <state line="22" column="14" selection-start="654" selection-end="654" vertical-scroll-proportion="0.4813008">
               <folding />
             </state>
           </provider>
@@ -559,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gnip_twitter_collector.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="174" selection-end="174" vertical-scroll-proportion="0.04715447">
+        <state line="22" column="14" selection-start="654" selection-end="654" vertical-scroll-proportion="0.4813008">
           <folding />
         </state>
       </provider>
