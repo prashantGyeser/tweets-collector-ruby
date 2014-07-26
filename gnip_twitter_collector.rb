@@ -6,6 +6,7 @@ require 'json'
 require 'lib/gnip_data_parser'
 require 'csv'
 require 'logger'
+require 'ruby-prof'
 
 output_csv_path = "gnip_output.csv"
 opened_csv_to_write = CSV.open(output_csv_path, "a+")
