@@ -17,21 +17,17 @@ twitter_stream = GnipStream::PowertrackClient.new("https://stream.gnip.com:443/a
 
 t = Time.now
 twitter_stream.consume do |message|
-  #process the message however you want
-  #RubyProf.start
-  puts Time.now - t
-  t = Time.now
   begin
     message_hash = GnipDataParser.parse_json_data(message)
     opened_csv_to_write << message_hash.values
   rescue Exception => e
     logger.error e
+    puts "####################################################################################"
+    puts e
+    puts "------------------------------------------------------------------------------------"
+    puts message
+    puts "####################################################################################"
+
   end
-  #result = RubyProf.stop
-
-  # Print a flat profile to text
-  #printer = RubyProf::FlatPrinter.new(result)
-  #printer.print(STDOUT)
-
 
 end
