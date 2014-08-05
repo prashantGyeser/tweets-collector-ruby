@@ -7,10 +7,10 @@ logger = Logger.new File.new('logs/tweetstream.log')
 output_csv_path = 'tweet_collector_output.csv'
 
 TweetStream.configure do |config|
-  config.consumer_key       = 'P1akA2LS1B6VHWiPzfyhDh24u'
-  config.consumer_secret    = 'eOuMGTiqXkqalOdGxYdxZiCGL73H5mc43LlswxHsfW3FRIqRoj'
-  config.oauth_token        = '2431831016-Tps58cf93MX9uW0n1GX6zXTNzrsYgOj9BIwJoDu'
-  config.oauth_token_secret = 'W4mKPVbHybmYgumLzN7RFrCwTyLJoI1I0TIGr5ubsu3Rl'
+  config.consumer_key       = '9fiOa2gB2AagQsUlq7ERTjc5H'
+  config.consumer_secret    = 'IL9w4UtGcQaij5lUf8vAjkGHEBCG0UnTIzX2vaDiIJRhzvTgfM'
+  config.oauth_token        = '132980832-ib95N4jIqrHTLxICG1u3qJqwLGSc0XD0vSNl8kQJ'
+  config.oauth_token_secret = 'aAlX3vKFL7Us23DvOg6OOSg8MgkTDVFKUfvOh5AE8XAbE'
   config.auth_method        = :oauth
 end
 
@@ -29,7 +29,7 @@ client.on_limit do |skip_count|
 end
 
 # Tracking the following tweets
-client.track('Japanese food', 'Japanese cuisine', 'Hiabchi', 'Teppanyaki', 'Sushi', 'Ramen', 'Donburi', 'Onigiri') do |tweet|
+client.track('Nabe', 'Tempura', 'Yaki', 'Udon', 'California Roll', 'Maki', 'Miso', 'Gyoza', 'Yakitori') do |tweet|
   puts "Storing tweet..."
   data = {
       tweet_id_str: tweet.id.to_s,
