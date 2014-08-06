@@ -4,7 +4,7 @@ require 'logger'
 
 logger = Logger.new File.new('logs/tweetstream.log')
 
-output_csv_path = 'tweet_collector_output.csv'
+output_csv_path = 'tweet_collector_output_akki.csv'
 
 TweetStream.configure do |config|
   config.consumer_key       = '9fiOa2gB2AagQsUlq7ERTjc5H'

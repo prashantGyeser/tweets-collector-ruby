@@ -36,8 +36,8 @@
       <file leaf-file-name="tweet_collector_akki.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tweet_collector_akki.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55136985" vertical-offset="173" max-vertical-offset="825">
-              <caret line="31" column="331" selection-start-line="31" selection-start-column="331" selection-end-line="31" selection-end-column="331" />
+            <state vertical-scroll-proportion="0.15075377" vertical-offset="0" max-vertical-offset="825">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -608,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tweet_collector_akki.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55136985" vertical-offset="173" max-vertical-offset="825">
-          <caret line="31" column="331" selection-start-line="31" selection-start-column="331" selection-end-line="31" selection-end-column="331" />
+        <state vertical-scroll-proportion="0.15075377" vertical-offset="0" max-vertical-offset="825">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding />
         </state>
       </provider>
