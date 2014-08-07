@@ -29,7 +29,7 @@ client.on_limit do |skip_count|
 end
 
 # Tracking the following tweets
-client.track('Dumplings', 'Dimsum', 'Fried Rice', 'Thai food', 'Pad Thai', 'Burgers', 'Hot Dogs', 'Sushi', 'Teppanyaki', 'Ramen', 'Pizza', 'Lasagna', 'Spaghetti', 'Burrito', 'Tacos', 'Quesadillas', 'Coffee', 'mocha', 'cappuccino', 'Pizza', 'Pie', 'cocktails', 'Beer', 'Shots', 'booze', 'party', 'partying', 'get high', 'get wasted') do |tweet|
+client.track('Dumplings', 'Dimsum', 'Fried Rice', 'Thai food', 'Pad Thai', 'Burgers', 'Hot Dogs', 'Sushi', 'Teppanyaki', 'Ramen', 'Pizza', 'Lasagna', 'Spaghetti', 'Burrito', 'Tacos', 'Quesadillas', 'Coffee', 'booze', 'party', 'partying', 'get high', 'get wasted') do |tweet|
   puts "Storing tweet..."
   data = {
       tweet_id_str: tweet.id.to_s,
